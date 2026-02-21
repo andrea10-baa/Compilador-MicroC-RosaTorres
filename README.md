@@ -1,4 +1,4 @@
-#PRE-COMPILADOR MICROC
+**PRE-COMPILADOR MICROC**
 
 ##Portada
 
@@ -10,7 +10,7 @@
 | **Proyecto** | Pre-Compilador MicroC |
 | **Universidad** | Universidad Mesoamericana |
 | **Año** | 2026 |
-| **Semestre | 5to Semestre |
+| **Semestre** | 5to Semestre |
 
 ---
 
