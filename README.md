@@ -10,7 +10,6 @@
 | **Proyecto** | Pre-Compilador MicroC |
 | **Universidad** | Universidad Mesoamericana |
 | **Año** | 2026 |
-| **Semestre** | 5to Semestre |
 
 ---
 
