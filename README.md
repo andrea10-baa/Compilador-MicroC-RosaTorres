@@ -1,4 +1,4 @@
-#**Pre-Compilador MicroC**
+##PRE-COMPILADOR MICROC
 
 ##Portada
 
