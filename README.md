@@ -1,6 +1,5 @@
 **PRE-COMPILADOR MICROC**
 
-##Portada
 
 | Campo | Información |
 |-------|-------------|
