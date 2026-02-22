@@ -14,7 +14,7 @@
 
 ## ¿Qué es MicroC Compiler?
 
-MicroC Compiler es una aplicación de escritorio que simula el entorno de un compilador para el lenguaje MicroC (basado en C/C++). Fue desarrollada en Python utilizando la librería Tkinter.
+Es una aplicación de escritorio que simula el entorno de un compilador para el lenguaje MicroC (basado en C/C++). Fue desarrollada en Python utilizando la librería Tkinter.
 
 ---
 
@@ -28,9 +28,9 @@ MicroC Compiler es una aplicación de escritorio que simula el entorno de un com
 
 ## Cómo ejecutar la aplicación
 
-1. Abre una terminal o símbolo del sistema
-2. Navega hasta la carpeta del proyecto
-3. Ejecuta el siguiente comando:
+1. Abrir una terminal o símbolo del sistema
+2. Navegar hasta la carpeta del proyecto
+3. Ejecutar el siguiente comando:
 
 ```
 python src/"MicroC compiler.py"
@@ -78,9 +78,9 @@ La aplicación tiene dos paneles principales:
 
 ## Flujo de uso básico
 
-1. Abre la aplicación
-2. Haz clic en **Nuevo** para crear un archivo o **Abrir** para cargar uno existente
-3. Si abriste un archivo, haz clic en **Editar** para poder modificarlo
-4. Escribe tu código en el panel izquierdo
-5. Haz clic en **Guardar** para guardar los cambios
-6. Para salir haz clic en **Salir**
+1. Abra la aplicación
+2. Hacer clic en **Nuevo** para crear un archivo o **Abrir** para cargar uno existente
+3. Si se abre un archivo, hacer clic en **Editar** para poder modificarlo
+4. Escribir el código en el panel izquierdo
+5. Hacer clic en **Guardar** para guardar los cambios
+6. Para salir hacer clic en **Salir**
