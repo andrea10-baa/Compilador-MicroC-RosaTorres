@@ -45,7 +45,9 @@ class MicroCCompiler:
 
         menu_ayuda = tk.Menu(menubar, tearoff=0, bg="#2d2d2d", fg="white",
                              activebackground="#0078d4", activeforeground="white")
-        menu_ayuda.add_command(label="  Acerca de MicroC", command=self.ayuda)
+        menu_ayuda.add_command(label="  Ayuda", command=self.ayuda)
+        menu_ayuda.add_command(label="  Acerca de", command=self.acerca_de)
+        menu_ayuda.add_command(label="  GitHub", command=self.abrir_github)
         menubar.add_cascade(label=" Ayuda ", menu=menu_ayuda)
 
         self.root.config(menu=menubar)
@@ -197,7 +199,7 @@ class MicroCCompiler:
         self._set_codigo("")
         self._actualizar_titulo()
         self._actualizar_estado()
-        self._log_resultado("-- Nuevo archivo creado --")
+        self._log_resultado("*-- Nuevo archivo creado --*")
         self.textbox1.focus()
 
     def abrir(self):
@@ -252,23 +254,34 @@ class MicroCCompiler:
         self.textbox1.focus()
 
     def compilar(self):
-        self._log_resultado("==============================\n"
+        self._log_resultado("-------------------\n"
                             "  [Compilacion en desarrollo]\n"
                             "  Esta funcion estara disponible\n"
                             "  en proximas entregas.\n"
-                            "==============================", limpiar=True)
+                            "-------------------", limpiar=True)
 
     def ayuda(self):
-        self._log_resultado("==============================\n"
+        self._log_resultado("===================\n"
                             "  AYUDA - MicroC Compiler\n"
-                            "------------------------------\n"
+                            "-------------------\n"
                             "  Nuevo:    Crear nuevo archivo\n"
                             "  Abrir:    Cargar archivo .C\n"
                             "  Guardar:  Guardar archivo .C\n"
                             "  Editar:   Habilitar edicion\n"
                             "  Compilar: Proxima entrega\n"
                             "  Salir:    Cerrar aplicacion\n"
-                            "==============================", limpiar=True)
+                            "===================", limpiar=True)
+
+    def acerca_de(self):
+        messagebox.showinfo(
+            "Acerca de MicroC Compiler",
+            "Proyecto para el curso de Automatas y Lenguajes\n"
+            "Creado por: Rosa Torres\n"
+        )
+
+    def abrir_github(self):
+        import webbrowser
+        webbrowser.open("https://github.com/andrea10-baa/Compilador-MicroC-RosaTorres")
 
     def salir(self):
         if not self._confirmar_guardar():
