@@ -78,7 +78,7 @@ La aplicación tiene dos paneles principales:
 
 ## Flujo de uso básico
 
-1. Abre la terminal en VS Code con Ctrl+ñ
+1. Abra la terminal en VS Code con Ctrl+ñ
 2. Ejecuta el programa con el comando: python src/"MicroC compiler.py"
 3. Hacer clic en **Nuevo** para crear un archivo o **Abrir** para cargar uno existente
 4. Si abre un archivo, haga clic en **Editar** para poder modificarlo
