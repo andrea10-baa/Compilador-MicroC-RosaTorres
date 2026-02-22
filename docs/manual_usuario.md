@@ -71,7 +71,7 @@ La aplicación tiene dos paneles principales:
 | Opción | Descripción |
 |--------|-------------|
 | **Ayuda** | Muestra en el panel derecho la descripción de cada botón |
-| **Acerca de** | Muestra información del proyecto y desarrolladora |
+| **Acerca de** | Muestra información del proyecto y desarrolladora (quien lo creo) |
 | **GitHub** | Abre el repositorio del proyecto en el navegador |
 
 ---
