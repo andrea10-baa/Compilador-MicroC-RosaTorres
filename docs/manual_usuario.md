@@ -8,7 +8,7 @@
 | **Carné** | 202425516 |
 | **Curso** | Autómatas y Lenguajes |
 | **Universidad** | Universidad Mesoamericana |
-| **Año** | 2026 |
+| **Año** | 2026 5to Semestre |
 
 ---
 
